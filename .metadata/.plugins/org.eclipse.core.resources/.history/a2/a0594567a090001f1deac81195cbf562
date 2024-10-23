@@ -1,0 +1,20 @@
+package org.generation;
+
+public class Season
+{
+	public static void main(String[] args)
+	{
+		/*Determinar la estación.
+		 * 1. Solicitar al usuario que ingrese un mes, como texto.
+		 * 2. Determnar la estación del año de acuerdo al mes ingresado
+		 * 3. Imprimir la estación corespondiente: Primavera, Verano, Otoño, Invierno
+		 *    Donde:
+		 *     -Primavera: Marzo, Abril, MAyo
+		 *     -Verano: Junio, Julio, Agosto
+		 *     -Otoño: Septiembre, Octubre, Febrero
+		 *     -Invierno: Diciembre, Enero, Febrero
+		 *Evaluar los meses usando if-else-if y switch*/
+		
+	}
+
+}

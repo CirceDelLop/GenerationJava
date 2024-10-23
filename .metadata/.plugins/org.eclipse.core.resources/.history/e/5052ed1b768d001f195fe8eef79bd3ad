@@ -1,0 +1,22 @@
+package j03TiposDatos;
+
+public class TiposDatos 
+{
+
+	public static void main(String[] args) 
+	{
+		//Comentario de línea
+		/*REGLAS PARA NOMBRAR VARIABLES
+		 * -Se distingue entre minúsculas y mayúsculas.
+		 * -Lalongitud del nombre es ilimitada
+		 * -Se puede usar cualquier carácter Unicode
+		 * -La variable puede comenzar:
+		 *  >Una letra ejemplo
+		 *  >Signo de dolar $ejemplo (no se recomienda)
+		 *  >Carácter de subrayado _ejemplo (no se recomienda)*/
+		int $myVar; //Es válido, pero no se recomienda
+		int _numEngranes;//Es válido, pero no se recomienda
+		
+	}
+
+}

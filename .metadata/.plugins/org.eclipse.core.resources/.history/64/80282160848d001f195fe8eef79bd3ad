@@ -1,0 +1,57 @@
+package j03TiposDatos;
+
+public class TiposDatos 
+{
+
+	public static void main(String[] args) 
+	{
+		//Comentario de línea
+		/*REGLAS PARA NOMBRAR VARIABLES
+		 * -Se distingue entre minúsculas y mayúsculas.
+		 * -Lalongitud del nombre es ilimitada
+		 * -Se puede usar cualquier carácter Unicode
+		 * -La variable puede comenzar:
+		 *  >Una letra ejemplo
+		 *  >Signo de dolar $ejemplo (no se recomienda)
+		 *  >Carácter de subrayado _ejemplo (no se recomienda)*/
+		int $myVar; //Es válido, pero no se recomienda
+		int _numEngranes;//Es válido, pero no se recomienda
+		int myVarEnEspeñol;//Es válido, pero se recomienda nombres en inglés
+		int sinC0m3nt4r10s;//Es válido, pero no se recomienda ya que es confuso
+		//int 5mentarios;//No es válido
+		boolean isOpenDoor5;//Es válido
+		/*En Java tendremos  los siguientes tipo de variables:
+		 * -Variables de instancia (Non static fields): atributos de los objetos.
+		 * -Variables de clase (Static Fields): atributos de la clase.
+		 * -Variables locales (local variables): variable dentro de las funciones(métodos)
+		 * -Parámetros (parameters): Entrada de las funciones*/
+		/*https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html Tipos de datos en Java
+		 *-Objetos
+		 *-Datos primitivos 8 datos primitivos
+		 *  >byte
+		 *  >shorte
+		 *  >int
+		 *  >long
+		 *  >float
+		 *  >double
+		 *  >boolean
+		 *  >char*/
+		//El tipo byte es de 8 bits, almacena datos numéricos enteros
+		byte myVarByte;///Declarando variable de tipo byte
+		myVarByte=12;//Asignando el valor 12 a la variable
+		
+		/*El número de digitos que puede contener una variable de tipo byte:2^8=256; del -128<--0-->127
+		 * Para obtener el valor máxio y mínimo del tipo de dato byte, se usa su wrapper (clase envolvente) Byte*/ 
+		System.out.println("Valor máximo de datos del tipo byte: "+Byte.MAX_VALUE);
+		System.out.println("Valor mínimo de datos del tipo byte: "+Byte.MIN_VALUE);
+		/*Tipo de dato "short": Dato de de 16 bits, almacena valores enteros (2^16=65536) del -32768<--0-->32767
+		 * Para obtener el valor máxio y mínimo del tipo de dato byte, se usa su wrapper (clase envolvente) Short*/
+		short myVarShort=12742;//Se declara una variable de tipo short con un valor asignado
+		System.out.println("Valor máximo de datos del tipo short: "+Short.MAX_VALUE);
+		System.out.println("Valor mínimo de datos del tipo short: "+Short.MIN_VALUE);
+		/*Tipo de dato int: Dato de 32 bits, almacena datos enteros (2^32), se usa su wrapper Interger para obtener sus valores mínimo y máximo.*/
+		System.out.println("Valor máximo de datos del tipo int: "+Integer.MAX_VALUE);
+		System.out.println("Valor mínimo de datos del tipo int: "+Integer.MIN_VALUE);
+	}
+
+}

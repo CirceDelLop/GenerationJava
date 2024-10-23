@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;org.generation.MesNacimiento&apos; to &apos;EjercicioMesNacimiento&apos;&#x0A;- Original project: &apos;j05ControlFlujo&apos;&#x0A;- Original element: &apos;org.generation.MesNacimiento&apos;&#x0A;- Renamed element: &apos;org.generation.EjercicioMesNacimiento&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MesNacimiento&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;org.generation{MesNacimiento.java[MesNacimiento" matchStrategy="1" name="EjercicioMesNacimiento" qualified="false" references="true" similarDeclarations="false" stamp="1729616620600" textual="false" version="1.0"/>
+</session>
