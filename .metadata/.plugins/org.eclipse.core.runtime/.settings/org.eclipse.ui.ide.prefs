@@ -1,4 +1,6 @@
+SWITCH_PERSPECTIVE_ON_PROJECT_CREATION=always
 eclipse.preferences.version=1
-platformState=1843260623241907
+org.eclipse.ui.internal.views.markers.CachedMarkerBuilderorg.eclipse.ui.views.TaskList=<?xml version\="1.0" encoding\="UTF-8"?>\n<filterGroups andFilters\="false" markerLimit\="100" markerLimitEnabled\="true">\n<filterGroup IMemento.internal.id\="org.eclipse.ui.ide.todosGrouping" enabled\="false" filterLimit\="-1" scope\="0" workingSet\="Aggregate for window 1729137583757">\n<fieldFilter IMemento.internal.id\="org.eclipse.ui.ide.completionField" completion\="3"/>\n<fieldFilter IMemento.internal.id\="org.eclipse.ui.ide.priorityField" selectedPriorities\="7"/>\n<fieldFilter IMemento.internal.id\="org.eclipse.ui.ide.descriptionField" containsModifier\="CONTAINS" containsText\="TODO"/>\n<fieldFilter IMemento.internal.id\="org.eclipse.ui.ide.markerType"/>\n</filterGroup>\n</filterGroups>
+platformState=1848459965318762
 quickStart=false
 tipsAndTricks=true
